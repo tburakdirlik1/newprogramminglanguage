@@ -87,7 +87,7 @@ BNF FORM
 
                                                             Aim					
   Ghost  progrramming language is based on Java language. Main aim of the Ghost is facilitate the syntax of java and code writing. 
-That's why many many reserved words defined again as abbreviated. But this language is imperarive so not oop base. We can use this language for mathematical calculations, textual operaitons.
+That's why many reserved words defined again as abbreviated. But this language is imperative so not based on oop. We can use this language for mathematical calculations basic textual operations.
 
   Reserved words:
         JAVA           GHOST	
