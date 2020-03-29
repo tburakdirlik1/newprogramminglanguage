@@ -1,10 +1,10 @@
-GHOST PROGRAMMING LANGUAGE
+#GHOST PROGRAMMING LANGUAGE
 
 Tunahan Burak Dirlik
 20170808076
 
-BNF FORM 
-
+#BNF FORM 
+```bash
 -- Operators --
 <multipication_operator> ::= *
 <division_operator> ::= /
@@ -87,8 +87,9 @@ BNF FORM
 <unary expression> ::= <preincrement expression> | <predecrement expression> | + <unary expression> | - <unary expression>
 <predecrement expression> ::= -- <unary expression>
 <preincrement expression> ::= ++ <unary expression>
-
-                                                            Aim					
+```
+#Aim			
+```bash
   Ghost  progrramming language is based on Java language. Main aim of the Ghost is facilitate the syntax of java and code writing. 
 That's why many reserved words defined again as abbreviated. But this language is imperative so not based on oop. We can use this language for mathematical calculations basic textual operations.
 
@@ -114,15 +115,10 @@ That's why many reserved words defined again as abbreviated. But this language i
         print          show
         Scanner        sc
 
+```
+#Example program
 
-
-
-
-
-
-
-Example program
-
+```bash
 main(){
              factorial(10):
              if(isprime(23)){
@@ -146,3 +142,6 @@ main(){
                             return true:
                                    }
                                 }
+
+```
+Last arrangement made for text layout sir that you mentioned.
