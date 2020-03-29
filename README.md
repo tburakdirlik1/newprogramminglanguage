@@ -1,4 +1,4 @@
-GHOST PROGRAMMINNG LANGUAGE
+GHOST PROGRAMMING LANGUAGE
 
 Tunahan Burak Dirlik
 20170808076
@@ -83,13 +83,17 @@ BNF FORM
 <empty statement> ::= :
 <static initializer> ::= stt <block>
 <scan_statement> :: = sc <var_name>
-<priny_statement> :: show <expression>
+<print_statement> :: show <expression>
+<unary expression> ::= <preincrement expression> | <predecrement expression> | + <unary expression> | - <unary expression>
+<predecrement expression> ::= -- <unary expression>
+<preincrement expression> ::= ++ <unary expression>
 
                                                             Aim					
   Ghost  progrramming language is based on Java language. Main aim of the Ghost is facilitate the syntax of java and code writing. 
 That's why many reserved words defined again as abbreviated. But this language is imperative so not based on oop. We can use this language for mathematical calculations basic textual operations.
 
   Reserved words:
+  
         JAVA           GHOST	
         int            int 
         double         db
@@ -120,7 +124,7 @@ That's why many reserved words defined again as abbreviated. But this language i
 Example program
 
 main(){
-             pb l factorial(10):
+             factorial(10):
              if(isprime(23)){
              show(“true”):
                              }
