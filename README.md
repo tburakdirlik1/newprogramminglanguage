@@ -11,7 +11,7 @@ That's why many many reserved words defined again as abbreviated. But this langu
 for mathematical calculations, textual operaitons.
 
   Reserved words:
-        JAVA                                    GHOST	
+        JAVA                   GHOST	
         int  	                 int 
         double  	             db
         long                   l
@@ -72,7 +72,8 @@ BNF FORM
 <addition_operator> ::= + | -
 <relational_operator> ::= < | > | <= | >=
 <comment> ::= ## <characters>
-<character> ::= <upper_case_letter> | <lower_case_letter> | <digit> | ! | ' | ^ | # | + | - | % | & | / | ( | ) | = | ? | * | < | > | - | \ | . | ,
+<character> ::= <upper_case_letter> | <lower_case_letter> | <digit> | ! 
+                                    | ' | ^ | # | + | - | % | & | / | ( | ) | = | ? | * | < | > | - | \ | . | ,
 <upper_case_letter> ::= A | B | C | … | Z | _
 <lower_case_letter> ::= a | b | c | … | z | _
 <digit> → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
