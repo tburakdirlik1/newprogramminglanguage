@@ -4,19 +4,51 @@ Tunahan Burak Dirlik
 20170808076
 
 BNF FORM 
+
 -- Operators --
 <multipication_operator> ::= *
 <division_operator> ::= /
 <addition_operator> ::= + | -
 <relational_operator> ::= < | > | <= | >=
 <comment> ::= ## <characters>
-<character> ::= <upper_case_letter> | <lower_case_letter> | <digit> | ! | ' | ^ | # | + | - | % | & | / | ( | ) | = | ? | * | < | > | - | \ | . | ,
+<character> ::= <upper_case_letter> | <lower_case_letter> 
+                                    | <digit> 
+                                    | ! 
+                                    | ' 
+                                    | ^ 
+                                    | # 
+                                    | + 
+                                    | - 
+                                    | % 
+                                    | & 
+                                    | / 
+                                    | ( 
+                                    | ) 
+                                    | = 
+                                    | ? 
+                                    | * 
+                                    | < 
+                                    | > 
+                                    | - 
+                                    | \ 
+                                    | . 
+                                    | ,
+  
 <upper_case_letter> ::= A | B | C | … | Z | _
 <lower_case_letter> ::= a | b | c | … | z | _
-<digit> → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<digit> → 0 | 1 
+            | 2 
+            | 3 
+            | 4 
+            | 5 
+            | 6 
+            | 7 
+            | 8 
+            | 9
 <sign> ::= + | -
   
---BLOCKS AND DEFINITIONS--  
+--BLOCKS AND DEFINITIONS-- 
+
 <type_name> ::= int | db | l | cc | bn
 <data_type> ::= array
 <int> ::= <sign> ? <number>
@@ -59,24 +91,24 @@ That's why many many reserved words defined again as abbreviated. But this langu
 
   Reserved words:
         JAVA           GHOST	
-        int  	          int 
-        double  	      db
-        long	          l
-        char  	        cc
-        boolean       	bn
-        true          	true 
-        false         	false 
-        for           	f
-        if            	if
-        else           	elif
-        while         	w
-        void        	  v
-        array	          arr
-        public        	pb
-        private       	pr
-        main            main
-        print	          show
-        scan	          sc
+        int            int 
+        double         db
+        long           l
+        char           cc
+        boolean        bn
+        true           true 
+        false          false 
+        for            f
+        if             if
+        else           elif
+        while          w
+        void           v
+        array          arr
+        public         pb
+        private        pr
+        main           main
+        print          show
+        Scanner        sc
 
 
 
